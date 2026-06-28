@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+}
+.name {
+  width: 200px;
+  padding-left: 60px;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.rightSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-right: 60px;
+  padding-top: 20px;
+}
+.tools {
+  margin-right: 20px;
+}
