@@ -45,9 +45,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* ستایلی هاوبەشی هەموو دوگمەکان */
+
 .btn {
-  padding: 12px 28px; /* کەمێک پانتر وەک دیزاینە ئەسڵییەکە */
+  padding: 12px 28px;
   border-radius: 30px;
   font-weight: bold;
   font-size: 12px;
@@ -55,7 +55,6 @@ body {
   transition: 0.3s;
 }
 
-/* ستایلی تایبەت بە دوگمەی دابەزاندن */
 .btn-download {
   background-color: rgb(239, 239, 239);
   color: rgb(0, 0, 0);
@@ -63,14 +62,12 @@ body {
   margin-right: 12px;
 }
 
-/* ستایلی تایبەت بە دوگمەی پەیوەندی */
 .btn-contact {
   background-color: rgb(73, 62, 62);
   color: white;
   border: none;
 }
 
-/* ڕێکخستنی ئایکۆنە کۆمەڵایەتییەکان بە ئاسۆیی */
 .sum-image {
   margin-top: 20px;
   display: flex;
