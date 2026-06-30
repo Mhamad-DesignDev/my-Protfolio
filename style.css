@@ -1,16 +1,17 @@
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
+  padding: 0px;
 }
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 50px;
+  padding: 20px 50px;
 }
 .name {
-  width: 200px;
   padding-left: 60px;
-  padding-top: 20px;
+  padding-top: 15px;
   font-size: 25px;
 }
 
@@ -23,4 +24,62 @@ body {
 }
 .tools {
   margin-right: 20px;
+}
+.Hero-Section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+.imgeMySelf {
+  margin-right: 70px;
+}
+.image {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* ستایلی هاوبەشی هەموو دوگمەکان */
+.btn {
+  padding: 12px 28px; /* کەمێک پانتر وەک دیزاینە ئەسڵییەکە */
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* ستایلی تایبەت بە دوگمەی دابەزاندن */
+.btn-download {
+  background-color: rgb(239, 239, 239);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  margin-right: 12px;
+}
+
+/* ستایلی تایبەت بە دوگمەی پەیوەندی */
+.btn-contact {
+  background-color: rgb(73, 62, 62);
+  color: white;
+  border: none;
+}
+
+/* ڕێکخستنی ئایکۆنە کۆمەڵایەتییەکان بە ئاسۆیی */
+.sum-image {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px; /* بۆشایی نێوان ئایکۆنەکان */
+  align-items: center;
+}
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  transition: 0.3s;
 }
